@@ -1,9 +1,7 @@
 'use strict';
-var index;
-var principle;
 
-index = require('./index');
-principle = require('./principle');
+import index from './index';
+import principle from './principle';
 
 module.exports = function routes(app) {
 	app.get('/', index);

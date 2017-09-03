@@ -1,7 +1,7 @@
 'use strict';
 
-var bunyan, log;
-bunyan = require('bunyan');
+var log;
+import bunyan from 'bunyan';
 log = bunyan.createLogger({
 	name: 'appindex'
 });

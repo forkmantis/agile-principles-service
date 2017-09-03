@@ -1,14 +1,14 @@
 'use strict';
-var express, logger, expressBunyanLogger, bodyParser, app, server, config,
-routes;
+var logger, app, server;
 
-express = require('express');
-logger = require('./utils/logger')('Server', true);
-expressBunyanLogger = require('express-bunyan-logger');
-bodyParser = require('body-parser');
-config = require('./config');
+import express from 'express';
+import l from './utils/logger';
+var logger = l('Server', true);
+import expressBunyanLogger from 'express-bunyan-logger';
+import bodyParser from 'body-parser';
+import config from './config';
 
-routes = require('./app/routes');
+import routes from './app/routes';
 
 app = module.exports = express();
 
