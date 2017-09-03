@@ -1,4 +1,4 @@
-module.exports = principles = [
+module.exports = [
     'Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.',
     'Welcome changing requirements, even late in development. Agile processes harness change for the customer\'s competitive advantage.',
     'Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.',
