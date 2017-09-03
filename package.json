@@ -21,6 +21,7 @@
   "devDependencies": {
     "chai": "^2.2.0",
     "mocha": "^2.2.4",
+    "nsp": "^2.7.0",
     "supertest": "^0.15.0",
     "supervisor": "^0.6.0"
   }
