@@ -21,6 +21,10 @@
     "express-bunyan-logger": "^1.1.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
     "chai": "^2.2.0",
     "mocha": "^2.2.4",
     "npm-run-all": "^4.1.1",
