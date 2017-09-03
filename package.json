@@ -6,7 +6,8 @@
   "scripts": {
     "init": "./bin/bootstrap",
     "security-check": "nsp check",
-    "start": "./bin/dev-start",
+    "start": "npm-run-all --parallel security-check start-server",
+    "start-server": "./bin/dev-start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Will Killian <will.oss@forkmantis.com>",
